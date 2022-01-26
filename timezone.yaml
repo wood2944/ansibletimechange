@@ -1,0 +1,13 @@
+- name: "Timezone Playbook"
+  hosts: all
+  tasks:
+   - name: Change Timezone
+     timezone:
+       name: Africa/Abidjan
+     become: yes
+     become_method: sudo 
+   
+   - stat: path=/home/woodsj/ANSIBLE/statfile.txt
+     register: st
+     
+   - debug: var=st
