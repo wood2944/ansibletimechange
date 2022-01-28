@@ -3,7 +3,7 @@
   tasks:
    - name: Change Timezone
      timezone:
-       name: Americas/Detroit
+       name: America/Detroit
      become: yes
      become_method: sudo 
    
