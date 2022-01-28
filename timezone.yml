@@ -4,6 +4,7 @@
    - name: Change Timezone
      timezone:
        name: America/Detroit
+       debugger: always
      become: yes
      become_method: sudo 
    
