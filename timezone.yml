@@ -4,10 +4,9 @@
    - name: Change Timezone
      timezone:
        name: Africa/Abidjan
-       debugger: always
      become: yes
      become_method: sudo 
-   
+     debugger: always
    - stat: path=/home/woodsj/ANSIBLE/statfile.txt
      register: st
      
