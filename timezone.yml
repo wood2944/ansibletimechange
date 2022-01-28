@@ -3,7 +3,7 @@
   tasks:
    - name: Change Timezone
      timezone:
-       name: Africa/Abidjan
+       name: America/New York
      become: yes
      become_method: sudo 
    
