@@ -6,7 +6,7 @@
        name: Africa/Abidjan
      become: yes
      become_method: sudo 
-     debugger: always
+     
    - stat: path=/home/woodsj/ANSIBLE/statfile.txt
      register: st
      
