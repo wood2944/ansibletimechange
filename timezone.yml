@@ -3,7 +3,7 @@
   tasks:
    - name: Change Timezone
      timezone:
-       hwclock: America/Detroit
+       hwclock: Africa/Abidjan
        debugger: always
      become: yes
      become_method: sudo 
