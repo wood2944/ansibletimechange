@@ -2,7 +2,7 @@
   hosts: all
   tasks:
    - name: Change Timezone
-     timezone:
+     community.general.timezone:
        name: America/Atka
      become: yes
      become_method: sudo 
