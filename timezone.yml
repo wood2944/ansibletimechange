@@ -1,5 +1,6 @@
 - name: "Timezone Playbook"
-  hosts: all
+  hosts: localhost
+  connection: local
   tasks:
    - name: Change Timezone
      community.general.timezone:
